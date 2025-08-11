@@ -1,0 +1,64 @@
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Caches / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.tox/
+.nox/
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Env files (do not commit secrets)
+.env
+.env.*
+!.env.example
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Temp
+/tmp/
+*.swp
+*.swo
+*~
+
+# Local data (uncomment if needed)
+# data/
+# datasets/
